@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+            <entry type="simpleWord" xml:lang="pt" xml:id="lobo_a">
+               <form type="lemma">
+                  <orth>lobo</orth>
+                  <pron>lóbu</pron>
+                  <lbl>:1</lbl>
+               </form>
+               <gramGrp>
+                  <gram type="pos" norm="NOUN">s.</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <etym type="inheritance">
+                  <seg type="desc">Do</seg>
+                  <cit type="etymon" xml:lang="grc">
+                     <form><orth>λoβóς</orth></form>
+                  </cit>
+               </etym>
+               <sense xml:id="lobo_a_1" n="1">
+                  <usg type="domain">Anat.</usg>
+                  <def>Parte arredondada e saliente, existente em diversos órgãos.</def>
+                  <cit type="example"><quote>Os lobos do cérebro.</quote></cit>
+                  <cit type="example"><quote>Lobo frontal.</quote></cit>
+                  <cit type="example"><quote>Lobos do pulmão.</quote></cit>
+               </sense>
+                  <entry xml:id="lobo_a_2" xml:lang="pt">
+                     <form><orth>lobo de orelha</orth></form>
+                     <sense xml:id="lobo_a_3" n="3" xml:lang="pt">
+                        <def>prolongamento arredondado e carnudo do pavilhão auricular.</def>
+                     </sense>
+                  </entry>
+                     <sense xml:id="lobo_a_4" n="2">
+                        <usg type="domain">Bot.</usg>
+                        <def>Parte arredondada entre duas reentrâncias do recorte das folhas, das pétalas de uma flor...</def>
+                     </sense>
+                     <sense xml:id="lobo_a_5" n="3">
+                        <usg type="domain">Bot.</usg>
+                        <def>Certo jogo popular.</def>
+                     </sense>
+               <!-- erro no original  -->
+               <sense xml:id="lobo_a_6" n="4">
+                  <usg type="domain">Bot.</usg>
+                  <def>Jogo infantil em que umas crianças fazem de lobo, outras de cordeiro e uma delas faz de pastor que as guarda.</def>
+               </sense>
+               <!-- erro no original  -->
+               <sense xml:id="lobo_a_7" n="5">
+                  <usg type="domain">Bot.</usg>
+                  <def>Máquina constituída por um tambor guarnecido de grossos dentes de ferro ou de aço e que é utilizada para abrir a lã, nas fábricas de lanifícios..</def>
+               </sense>
+                  </entry>
+      </body>
+  </text>
+</TEI>

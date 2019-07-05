@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <entry type="simpleWord" xml:id="missanga" xml:lang="pt">
+            <form type="lemma">
+               <orth>missanga</orth>
+            </form>
+            <!-- não está no papel; informação da nova edição -->
+            <form type="variant" xml:id="id" xml:lang="pt">
+               <orth>miçanga</orth>
+               <usg type="geo">
+                  <placeName>Brasil</placeName>
+               </usg>
+            </form>
+            <etym type="borrowing">
+               <seg type="desc">Talvez do quim.</seg>
+               <cit type="etymon" xml:lang="quimb">
+                  <form><orth>missanga</orth></form><pc>,</pc>
+                  <lbl>form pl. de</lbl> <form><orth>mussanga</orth></form>
+               </cit>
+            </etym>
+            
+            <sense xml:id="missanga_1" n="1">
+               <def>Conjunto de pequenas contas de vidro, de cores variadas, que se usam como enfeite em colares, bordados...</def>
+               <cit type="example"><quote>Tinha um colar de missanga preta e outro de missanga branca, que costumava usar entrelaçados.</quote></cit>
+            </sense>
+            <cit type="example">
+               <quote>o lado dormia a pequena surda-muda, dormia cheia dum suspirar e de activos sonhos em que decerto chorava a perda da sua missanga de vidro com que fazia colares e anéis.</quote>
+               <bibl><author>AGUSTINA</author>, <title>SERMÃO</title>, <citedRange>p. 15</citedRange></bibl>
+            </cit>
+            <cit type="example">
+               <quote>o calcanhar sujo da meia
+                  missão 2489 missó-cristão saía-lhe para fora da chinela bordada a missanga.</quote>
+               <bibl><author>EÇA</author>, <title>Primo Basílio</title>, <citedRange>p. 33</citedRange></bibl>
+            </cit>
+            
+          
+          
+               <usg type="domain">Tip.</usg>
+            
+            
+            
+            
+            </entry>
+      </body>
+  </text>
+</TEI>

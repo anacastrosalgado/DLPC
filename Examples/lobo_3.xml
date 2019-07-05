@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry type="simpleWord" xml:lang="pt" xml:id="Lobo">
+            <form type="lemma">
+               <orth>lobo</orth>
+               <pron>lóbu</pron>
+               <lbl>:1</lbl>
+            </form>
+            <gramGrp>
+               <gram type="pos" norm="NOUN">s.</gram>
+               <gram type="gen">m.</gram>
+            </gramGrp>
+            <etym type="inheritance">
+               <seg type="desc">Do</seg>
+               <cit type="etymon" xml:lang="la">
+                  <form><orth>lupus</orth>, relativo ao animal em que Júpiter transformou Licaão colocando-o no céu, entre as estrelas.</form>
+               </cit>
+            </etym>
+            <sense xml:id="Lobo_1" n="1">
+               <usg type="domain">Astr.</usg>
+               <def>Constelação austral, que ocupa 334 graus quadrados, formado por estrelas de magnitude média.</def>
+            </sense>
+</entry>
+      </body>
+  </text>
+</TEI>

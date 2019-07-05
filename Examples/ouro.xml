@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Dicionário da Academia das Ciências de Lisboa</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Academia das Ciências de Lisboa</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <bibl>
+                  <title>Dicionário da Língua Portuguesa Contemporânea</title>
+                  <extent>2 volumes</extent>
+                  <extent>3809 pp.</extent>
+                  <author>Academia das Ciências</author>
+                  <publisher>Editorial Verbo</publisher>
+                  <date>2001</date>
+               </bibl>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+  <text>
+      <body>
+         
+         <entry type="simpleWord" xml:id="ouro" xml:lang="pt">
+            <form type="lemma">
+               <orth>ouro</orth>
+               <pron>'oru</pron>
+            </form>
+            <form type="variant" xml:id="oiro" xml:lang="pt">
+               <orth>oiro</orth>
+               <pron>ˈojru</pron>
+            </form>
+            <gramGrp>
+               <gram type="pos" norm="NOUN">s.</gram>
+               <gram type="gen">m.</gram>
+            </gramGrp>
+            <etym type="inheritance">
+               <lbl>Do</lbl>
+               <cit type="etymon" xml:lang="la">
+                  <form>
+                     <orth>aurum</orth>
+                  </form>
+               </cit>
+            </etym>
+            <sense xml:id="ouro_1" n="1">
+               <usg type="domain">Quím.</usg>
+               <def>Elemento sólido (símb. Au, no at. 79, p. at. 196,997), metal precioso de cor amarela, macio e maleável, inoxidável e não atacado pelos ácidos.</def>
+               <cit type="example"><quote>O ouro é muito usado em joalharia.</quote></cit>
+            </sense>
+            
+            <entry type="multiWord" xml:id="ouro_2" xml:lang="pt">
+               <form><orth>de ouro</orth></form>
+               <sense xml:id="ouro_3" n="1" xml:lang="pt">
+                  <def>Diz-se de alguma coisa que tem a cor, o aspecto, o brilho desse metal precioso.</def>
+                  <cit type="example"><quote>Banho de ouro.</quote></cit>
+               </sense>
+               <sense xml:id="ouro_4" n="2" xml:lang="pt">
+                  <def>De grande valor.</def>
+                  <xr type="synonymy"><ref type="sense">precioso</ref></xr>
+                  <cit type="example"><quote>O silêncio é de ouro.</quote></cit>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_5" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">ensaiador<pc>+</pc> de ouro e prata.</ref></xr></orth></form>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_6" xml:lang="pt">
+               <form><orth>ouro branco</orth></form>
+               <sense xml:id="ouro_7" n="1" xml:lang="pt">
+                  <def>Liga deste metal que contém 20 a 50% de níquel, muito usada na ourivesaria.</def>
+               </sense>
+               <sense xml:id="ouro_8" n="2" xml:lang="pt">
+                  <def>Liga deste metal, níquel e paládio.</def>
+               </sense>
+               <sense xml:id="ouro_9" n="3" xml:lang="pt">
+                  <usg type="geo">Bras.</usg>
+                  <def>Algodão, considerado como riqueza agrícola. </def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_10" xml:lang="pt">
+               <form><orth>ouro de lei</orth></form>
+               <sense xml:id="ouro_11" n="1" xml:lang="pt">
+                  <def>Aquele cujos quilates são determinados por disposições e que varia consoante o país. </def>
+               </sense>
+               <sense xml:id="ouro_12" n="2" xml:lang="pt">
+                  <def>Material de excelente qualidade.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_13" xml:lang="pt">
+               <form><orth>ouro fino</orth></form>
+               <sense xml:id="ouro_14" n="1" xml:lang="pt">
+                  <def>o que possui 24 quilates. </def>
+               </sense>
+               <sense xml:id="ouro_15" n="2" xml:lang="pt">
+                  <def>Qualquer objecto feito desse metal.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_16" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">medalha<pc>+</pc> de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <sense xml:id="ouro_17" n="3" xml:lang="pt">
+               <def>Coisa muito valiosa.</def>
+            </sense>
+            
+            <entry type="multiWord" xml:id="ouro_18" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">preço<pc>+</pc> de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_19" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">bodas<pc>+</pc> de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_20" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">coração<pc>+</pc> de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_21" xml:lang="pt">
+               <form><orth>ouro em pó</orth></form>
+               <sense xml:id="ouro_22" n="1" xml:lang="pt">
+                  <def>Coisa de qualidade superior.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_23" xml:lang="pt">
+               <form><orth>ouro em pó</orth></form>
+               <sense xml:id="ouro_23_" n="2" xml:lang="pt">
+                  <def>Pessoa muito virtuosa, sincera, leal.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_24" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">menino<pc>+</pc> de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_24_" xml:lang="pt">
+               <form><orth>ouro negro</orth></form>
+               <sense xml:id="ouro_25" n="1" xml:lang="pt">
+                  <def>petróleo, considerado como riqueza económica.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_26" xml:lang="pt">
+               <form><orth>ouro coronário</orth></form>
+               <sense xml:id="ouro_27" xml:lang="pt">
+                  <usg type="domain">Hist.</usg>
+                  <def>coroa deste metal que davam, na Roma Antiga, aos generais vencedores.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_28" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">sonho<pc>+</pc> de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <sense xml:id="ouro_29" n="4" xml:lang="pt">
+               <def>Símbolo de riqueza.</def>
+               <xr type="synonymy"><ref type="sense">fortuna</ref></xr>
+               <xr type="synonymy"><ref type="sense">opulência</ref></xr>
+            </sense>
+            
+            <entry type="multiWord" xml:id="ouro_30" xml:lang="pt">
+               <form><orth>a<xr type="related"><ref type="entry">galinha<pc>+</pc> dos ovos de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_31" xml:lang="pt">
+               <form><orth><xr type="related"><ref type="entry">mina<pc>+</pc> de ouro.</ref></xr></orth></form>
+            </entry>
+            
+            <sense xml:id="ouro_32" n="5" xml:lang="pt">
+               <def>Cor amarela dourada.</def>
+               <cit type="example"><quote>Tinha cabelos claros, cor de  ouro.</quote></cit>
+            </sense>
+            
+            <sense xml:id="ouro_33" n="5" xml:lang="pt">
+               <def>Cor amarela dourada.</def>
+               <cit type="example"><quote>Tinha cabelos claros, cor de  ouro.</quote></cit>
+            </sense>
+            
+            <sense xml:id="ouro_34" n="6" xml:lang="pt">
+               <usg type="domain">Heráld.</usg>
+               <def>Metal heráldico, amarelado, representado por uma série de pontos.</def>
+               <cit type="example"><quote>Tinha cabelos claros, cor de  ouro.</quote></cit>
+            </sense>
+            
+            <entry type="multiWord" xml:id="ouro_36" xml:lang="pt">
+               <sense xml:id="ouro_35" n="7" xml:lang="pt">
+                  <gramGrp>
+                     <gram type="pos">funç. adj.</gram>
+                  </gramGrp>
+                  <form><orth><xr type="related"><ref type="entry">córdoba<pc>+</pc> ouro.</ref></xr></orth></form>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_37" xml:lang="pt">
+               <sense xml:id="ouro_36_" n="8" xml:lang="pt">
+                  <form><orth><xr type="related"><ref type="entry">livro<pc>+</pc> ouro.</ref></xr></orth></form>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_38" xml:lang="pt">
+               <sense xml:id="ouro_37_" n="9" xml:lang="pt">
+                  <form><orth><xr type="related"><ref type="entry">número<pc>+</pc> ouro.</ref></xr></orth></form>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_40" xml:lang="pt">
+               <form><orth>ouro potável</orth></form>
+            </entry>
+            <sense xml:id="ouro_39" n="10" xml:lang="pt">
+               <def>líquido oleoso e alcoólico.</def>
+               <cit type="example"><quote>O silêncio é de ouro.</quote></cit>
+            </sense>
+         </entry>
+         
+            <entry type="multiWord" xml:id="ouro_41" xml:lang="pt">
+               <form><orth>cobrir alguém de ouro</orth></form>
+               <sense xml:id="ouro_41_">
+                  <def>tratar muito bem alguém, dando-lhe tudo de bom.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_42" xml:lang="pt">
+               <form><orth>nem tudo o que brilha/luz é ouro</orth></form>
+               <sense xml:id="ouro_42_"><def>as coisas nem sempre são o que parecem ser.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_43" xml:lang="pt">
+               <form><orth>ouro sobre azul</orth></form>
+               <sense xml:id="ouro_44" n="1" xml:lang="pt"><def>Coisa muito boa.</def>
+               </sense>
+               <sense xml:id="ouro_46" n="2" xml:lang="pt"><def>Reunião de duas coisas excelentes, que combinam na perfeição. pagar a peso de ouro, pagar muito bem.</def>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_47" xml:lang="pt">
+               <form><orth>pagar a peso de ouro</orth></form>
+               <sense xml:id="ouro_48"><def>Pagar muito bem.</def>
+                  <cit type="example"><quote>O patrão pagava-lhe a peso de ouro.</quote></cit>
+               </sense>
+            </entry>
+            
+            <entry type="multiWord" xml:id="ouro_49" xml:lang="pt">
+               <form><orth>valer o seu peso em ouro</orth></form>
+               <sense xml:id="ouro_50"><def>ser muito valioso.</def>
+               </sense>
+            </entry>
+      </body>
+  </text>
+</TEI>

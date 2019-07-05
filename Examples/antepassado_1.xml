@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry type="derivativeWord" xml:lang="pt" xml:id="antepassado">
+            <form type="lemma">
+               <orth>antepassado</orth>
+               <pron>ɐ̃tɨpɐsˈadu</pron>
+            </form>
+            <form type="inflected">
+               <orth>antepassado</orth>
+               <gramGrp>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth>antepassada</orth>
+               <gramGrp>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <pron>ɐ̃tɨpɐsˈadɐ</pron>
+               <lbl>:1</lbl>
+            </form>
+            <gramGrp>
+               <gram type="pos" norm="ADJ">adj.</gram></gramGrp>
+            <etym type="grammaticalization">
+               <seg type="desc">De</seg>
+               <cit type="etymon">
+                  <form>
+                     <orth extent="pref">ante-</orth>
+                  </form>
+               </cit>
+                  <lbl>+</lbl>
+                  <cit type="etymon">
+                     <form>
+                        <orth>passado</orth>
+                     </form>
+                  </cit>
+            </etym>
+            <sense xml:id="antepassado_1">
+               <def>Que pertence ou viveu numa época anterior.</def>
+               <xr type="synonymy">
+                  <ref type="sense">antecessor</ref>
+               </xr>
+               <xr type="synonymy">
+                  <ref type="sense">sucessor</ref>
+               </xr>
+               <xr type="antonymy">
+                  <ref type="sense">descendente</ref>
+               </xr>
+               <xr type="antonymy">
+                  <ref type="sense">sucessor</ref>
+               </xr>
+            </sense>
+         </entry>
+      </body>
+  </text>
+</TEI>

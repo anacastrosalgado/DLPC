@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Schemas/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+            <entry type="simpleWord" xml:lang="pt" xml:id="lobo_b">
+               <form type="lemma">
+                  <orth>lobo</orth>
+                  <pron>lóbu</pron>
+                  <gramGrp>
+                     <gram type="pos">n.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth>lobo</orth>
+                  <gramGrp>
+                     <gram type="gen">m.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth>loba</orth>
+                  <gramGrp>
+                     <gram type="gen">f.</gram>
+                  </gramGrp>
+                  <pron>lóba</pron>
+                  <lbl>:2</lbl>
+               </form>
+               <gramGrp> <gram type="pos" norm="NOUN">n.</gram></gramGrp>
+               <etym type="inheritance">
+                  <seg type="desc">Do</seg>
+                  <cit type="etymon" xml:lang="la">
+                     <form><orth>lupus</orth></form>
+                  </cit>
+               </etym>
+               <sense xml:id="lobo_b_1" n="1">
+                  <usg type="domain">Zool.</usg>
+                  <def>Animal mamífero carnívoro, da família dos canídeos <term>(Canis lupus, Lin.)</term>, que vive nas regiões montanhosas da Europa, da Ásia e da América, em lugares solitários e tranquilos e é aparentemente semelhante a um cão grande.</def>
+                  <cit type="example"><quote>No Verão, os lobos caçam solitários, mas, no Inverno, esfomeados, reúnem-se geralmente em alcateias, tornando-se muito perigosos.</quote></cit>
+               </sense>
+               
+               <entry xml:id="lobo_b_2" xml:lang="pt">
+                  <form><orth>lobo asnal</orth></form>
+                  <sense xml:id="lobo_b_3" n="3" xml:lang="pt">
+                     <def>o que é grande, por oposição ao lobo-cerval.</def>
+                  </sense>
+               <sense xml:id="lobo_b_4" n="2">
+                  <def>Pessoa cruel, de maus tratos.</def>
+               </sense>
+                  <sense xml:id="lobo_b_5" n="3">
+                     <usg type="geo">Bras.</usg>
+                     <usg type="domain">Zool.</usg>
+                     <def>Animal mamífero carnívoro que vive no estado selvagem em certas regiões da América do Sul.</def>
+                  </sense>
+               </entry>
+                  <!-- erro no original  -->
+               
+               <entry xml:id="lobo_b_6" xml:lang="pt">
+                  <form><orth><xr type="related"><ref type="entry">cova<pc>+</pc> do lobo.</ref></xr></orth></form>
+                  </entry>
+               
+               <entry xml:id="lobo_b_7" xml:lang="pt">
+                  <form><orth><xr type="related"><ref type="entry">fome<pc>+</pc> de lobo.</ref></xr></orth></form>
+               </entry>
+               
+               <entry xml:id="lobo_b_8" xml:lang="pt">
+                  <form><orth>lobo do mar</orth></form>
+                  <sense xml:id="lobo_b_9" xml:lang="pt">
+                     <def>marinheiro corajoso, habituado às tempestaddes, ao perigo do mar.</def>
+                  </sense>
+               </entry>
+               
+                  <entry xml:id="lobo_b_10" xml:lang="pt">
+                     <form><orth>lobo com pele de cordeiro</orth></form>
+                     <sense xml:id="lobo_b_11" xml:lang="pt">
+                        <def>pessoa que se faz passar por alguém calmo, dócil, sem maldade, ocultando o carácter, as intenções....</def>
+                     </sense>
+                  </entry>
+               
+               <entry xml:id="lobo_b_12" xml:lang="pt">
+                  <form><orth><xr type="related"><ref type="entry">tripa</ref><lbl>+</lbl></xr> de lobo</orth></form><pc>.</pc>
+               </entry>
+               
+               <entry xml:id="lobo_b_13" xml:lang="pt">
+                  <form><orth>entre o lobo e o cão</orth></form>
+                  <gramGrp> <gram type="pos">loc. adv.</gram></gramGrp>
+                  <sense xml:id="lobo_b_14" xml:lang="pt">
+                     <def>ao escurecer</def> <pc>;</pc>
+                     <def>ao lusco-fusco</def>
+                  </sense>
+               </entry>
+                  
+               <entry xml:id="lobo_b_15" xml:lang="pt">
+                  <form><orth>cair na boca do lobo</orth></form>
+                  <sense xml:id="lobo_b_16" xml:lang="pt">
+                     <def>cair numa cilada</def> <pc>;</pc>
+                     <def>ficar numa situação perigosa ou comprometedora que se pretendia evitar.</def>
+                  </sense>
+               </entry>
+                  
+               <entry xml:id="lobo_b_17" xml:lang="pt">
+                  <form><orth>comer como um lobo</orth></form>
+                  <sense xml:id="lobo_b_18" xml:lang="pt">
+                     <def>comer muito e avidamente</def>
+                  </sense>
+               </entry>
+       
+               <entry xml:id="lobo_b_19" xml:lang="pt">
+                  <form><orth>encomendar as ovelhas ao lobo</orth></form>
+                  <sense xml:id="lobo_b_20" xml:lang="pt">
+                     <def>confiar uma coisa a quem é passível de ser tentado por ela.</def>
+                  </sense>
+               </entry>
+                  
+               <entry xml:id="lobo_b_21" xml:lang="pt">
+                  <form><orth>estar na goela do lobo</orth></form>
+                  <sense xml:id="lobo_b_22" xml:lang="pt">
+                     <def>estar numa situação muito grave.</def>
+                  </sense>
+               </entry>
+                  
+               <entry xml:id="lobo_b_23" xml:lang="pt">
+                  <form><orth>meter-se na boca do lobo</orth></form>
+                  <sense xml:id="lobo_b_24" xml:lang="pt">
+                     <def>expor-se inadvertidamente a perigos ou dificuldades.</def><pc>;</pc>
+                     <def>cair numa cilada.</def>
+                  </sense>
+               </entry>
+               
+               <entry xml:id="lobo_b_25" xml:lang="pt">
+                  <form><orth>parecer que viu lobo</orth></form>
+                  <sense xml:id="lobo_b_26" xml:lang="pt" n="1">
+                     <def>Apresentar-se com o cabelo hirto ou todo despenteado.</def>
+                  </sense>
+                  <sense xml:id="lobo_b_27" xml:lang="pt" n="2">
+                     <def>Ficar muito amedrontado com qualquer coisa inesperada.</def>
+                  </sense>
+               </entry>
+                  
+               <entry xml:id="lobo_b_28" xml:lang="pt">
+                  <form><orth>quem não quer ser lobo não lhe veste a pele</orth></form>
+                  <sense xml:id="lobo_b_29" xml:lang="pt">
+                     <def>quem não quer trabalhos ou problemas não se envolva neles.</def>
+                  </sense>
+               </entry>
+               
+               <entry xml:id="lobo_b_30" xml:lang="pt">
+                  <form><orth>são lobos da mesma alcateia</orth></form>
+                  <sense xml:id="lobo_b_31" xml:lang="pt">
+                     <def>são pessoa pessoas com os mesmos interesses</def><pc>;</pc>
+                     <def>entendem-se umas com as outras.</def>
+                  </sense>
+               </entry>
+               
+               <entry xml:id="lobo_b_32" xml:lang="pt">
+                  <form><orth>ser um lobo com pele de cordeiro</orth></form>
+                  <sense xml:id="lobo_b_33" xml:lang="pt">
+                     <def>ser velhaco ou mau com capa de santo.</def>
+                  </sense>
+               </entry>
+                  
+               <entry xml:id="lobo_b_34" xml:lang="pt">
+                  <form><orth>ter uma fome de lobo</orth></form>
+                  <sense xml:id="lobo_b_35" xml:lang="pt">
+                     <def>estar esfomeado</def>
+                  </sense>
+               </entry>
+                  
+            </entry>
+      </body>
+  </text>
+</TEI>
