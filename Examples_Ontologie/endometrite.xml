@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Documents/GitHub/lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng?fbclid=IwAR3EMhoOEei4hIPx3q5ufp3Az-PVH8Ub-ZBg7_8A3VdXRC4EeR_hWnz3mEo" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry type="monolexicalUnit" xml:lang="pt" xml:id="endometrite">
+            <form type="lemma">
+               <orth>endometrite</orth>
+               <pron>ẽdɔmɨtrˈitɨ</pron>
+            </form>
+            <gramGrp>
+               <gram type="pos" norm="NOUN">s.</gram>
+               <gram type="gen">f.</gram></gramGrp>
+                     
+                     <etym type="affixation">
+               <seg type="desc">De</seg>
+               <cit type="etymon"  xml:lang="pt">
+                  <form>
+                     <orth extent="pref">endo-</orth>
+                  </form>
+               </cit>
+               <lbl>+</lbl>
+               <cit type="etymon"  xml:lang="gr">
+                  <form>
+                     <orth>µ ήτρα</orth>
+                     <orth>'útero'</orth></form>
+               </cit>
+               <lbl>+</lbl>
+               <cit type="etymon">
+                  <gramGrp>
+                     <gram>suf.</gram>
+                  </gramGrp>
+                  <form>
+                     <orth extent="suff">-ite</orth>
+                  </form>
+               </cit>
+            </etym>
+
+            <sense xml:id="endometrite_0">
+               <usg type="domain">Med.</usg>
+               <def> Inflamação da mucosa uterina.</def>
+            </sense>
+         </entry>
+      </body>
+  </text>
+</TEI>
