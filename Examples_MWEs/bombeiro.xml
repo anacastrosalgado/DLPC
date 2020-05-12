@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <entry type="monolexicalUnit" xml:lang="pt" xml:id="bombeiro">
+            <form type="lemma">
+               <orth>bombeiro</orth>
+            </form>
+            <!--etc. -->
+            <sense xml:id="bombeiro.1">
+               <!--etc. -->
+               <entry xml:id="bombeiro_voluntario" xml:lang="pt" type="relatedEntry">
+                  <form type="lemma">
+                     <orth>bombeiro voluntário</orth>
+                  </form>
+                  <gramGrp>
+                     <gram type="mwe" value="combinatória_fixa"/>
+                  </gramGrp>
+                  <pc>,</pc>
+                  <sense xml:id="bombeiro_voluntario.1">
+                     <def>o que pertence a uma corporação com a obrigatoriedade de acudir a incêndios, acidentes, unicamente por filantropia</def>
+                     <pc>.</pc>
+                  </sense>
+               </entry>
+               <entry xml:id="corpo_de_bombeiros" xml:lang="pt" type="relatedEntry">
+                  <form type="lemma">
+                     <orth>
+                        <ref type="entry"><seg>corpo</seg><lbl>+</lbl></ref>
+                        <seg>de bombeiros</seg>
+                     </orth>
+                  </form>
+                  <pc>.</pc>
+               </entry>
+            </sense>
+            <!--etc.-->
+         </entry>
+      </body>
+   </text>
+</TEI>
+         

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <entry xml:lang="pt" xml:id="decreto-lei" type="polylexicalUnit">
+            <form type="lemma">
+               <orth>decreto-lei</orth>
+               <pron>dɨkrεtulˈɐj</pron>
+            </form>
+            <gramGrp>
+               <gram type="mwe" value="composto"/>
+               <gram type="pos" norm="NOUN">s.</gram>
+               <gram type="gen">m.</gram>
+            </gramGrp>
+            <!--etc. -->
+         </entry>
+      </body>
+   </text>
+</TEI>

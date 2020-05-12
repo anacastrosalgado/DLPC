@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <entry xml:lang="pt" xml:id="fiat_lux" type="polylexicalUnit">
+            <form type="lemma">
+               <orth>fiat lux</orth>
+            </form>
+            <gramGrp>
+               <gram type="mwe" value="locução_latina">loc. lat.</gram>
+            </gramGrp>
+            <etym type="borrowing"><lang value="la"/></etym>
+            <!--etc. -->
+         </entry>
+      </body>
+   </text>
+</TEI>
+         

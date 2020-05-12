@@ -36,7 +36,7 @@
                <seg type="desc">De</seg>
                <cit type="etymon">
                   <form xml:lang="pt">
-                     <!-- Is it better? <orth> <ref type="oRef"/> <seg>dis-</seg> </orth> or just <oRef>? or mentioned? (if we change something here, we have to change all entries)-->
+                     <!-- Is it better? <orth> <ref type="oRef"/> <seg>dis-</seg> </orth> or just <oRef>? or mentioned? (if we change something here, we have to change all entries)-->c
                      <orth extent="pref" type="relatedEntry">dis-</orth>
                      <lbl>:2</lbl>
                   </form>

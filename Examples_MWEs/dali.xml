@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <entry type="monolexicalUnit" xml:lang="pt" xml:id="dali">
+            <form type="lemma">
+               <orth>dali</orth>
+            </form>
+            <!--etc.-->
+            <entry xml:id="dali_a_nada" xml:lang="pt" type="relatedEntry">
+               <form type="lemma">
+                  <orth>dali a nada</orth>
+               </form>
+               <gramGrp>
+                  <gram type="mwe" value="locução_adverbial">loc. adv.</gram>
+               </gramGrp>
+               <pc>,</pc>
+               <sense xml:id="dali_a_nada.1">
+                  <def>muito pouco tempo depois</def>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>Dali a nada estava ele a chatear-me.</quote>
+                  </cit>
+               </sense>
+            </entry>
+            <!--etc.-->
+         </entry>
+      </body>
+   </text>
+</TEI>

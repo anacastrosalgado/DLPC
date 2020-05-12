@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry type="simpleWord" xml:id="descalçar" xml:lang="pt">
+            <!--etc.-->
+         <sense xml:id="descalçar.1">
+            <!--etc.-->
+            <form type="collocations">
+               <form type="collocation">
+                  <orth>
+                     <ref type="oRef"><lbl>+</lbl></ref>
+                     <seg>as botas</seg>
+                  </orth>
+                  <gramGrp>
+                     <gram type="mwe" value="co-ocorrente_privilegiado"/>
+                  </gramGrp>
+               </form>
+               <pc>,</pc>
+               <form type="collocation">
+                  <orth>
+                     <ref type="oRef"/>
+                     <seg>as luvas</seg>
+                  </orth>
+                  <gramGrp>
+                     <gram type="mwe" value="co-ocorrente_privilegiado"/>
+                  </gramGrp>
+               </form>
+               <pc>,</pc>
+               <form type="collocation">
+                  <orth>
+                     <ref type="oRef"/>
+                     <seg>as meias</seg>
+                  </orth>
+                  <gramGrp>
+                     <gram type="mwe" value="co-ocorrente_privilegiado"/>
+                  </gramGrp>
+               </form>
+            </form>
+            <pc>;</pc>
+            <form type="collocations">
+               <form type="collocation">
+                  <orth>
+                     <ref type="oRef"><lbl>+</lbl></ref>
+                     <seg>os sapatos</seg>
+                  </orth>
+                  <gramGrp>
+                     <gram type="mwe" value="co-ocorrente_privilegiado"/>
+                  </gramGrp>
+               </form>
+            </form>
+            <pc>.</pc>
+         </sense>
+            
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <entry xml:lang="pt" xml:id="água" type="monolexicalUnit">
+            <!--etc.-->
+         <sense xml:id="agua.4">
+            <!--etc.-->
+            <entry xml:id="agua_assustada" xml:lang="pt" type="relatedEntry">
+               <form type="lemma">
+                  <orth>água assustada</orth>
+               </form>
+               <pc>.</pc>
+               <usg type="geographic" norm="regionalism">Region.</usg>
+               <pc>,</pc>
+               <sense xml:id="agua_assustada.1">
+                  <def>a que tem uma temperatura amena.</def>
+               </sense>
+            </entry>
+            <!--etc.-->
+         </sense>
+         
+         <sense xml:id="agua.5">
+            <!--etc.-->
+            <entry xml:id="agua_de_barrela" xml:lang="pt" type="relatedEntry">
+               <form type="lemma">
+                  <orth>água de barrela</orth>
+               </form>
+               <sense xml:id="agua_de_barrela.1" n="1">
+                  <lbl>1.</lbl>
+                  <usg type="geographic">Bras.</usg>
+                  <usg type="socioCultural">Pop.</usg>
+                  <def>A que é suja.</def>
+               </sense>
+               <sense xml:id="agua_de_barrela.2" n="2">
+                  <lbl>2.</lbl>
+                  <def>Café muito raro.</def>
+               </sense>
+               <sense xml:id="agua_de_barrela.3" n="3">
+                  <lbl>3.</lbl>
+                  <def>Insucesso, fiasco.</def>
+                  <cit type="example">
+                     <quote>Ah, o fiasco do Rochinha... Que água de barrela!</quote>
+                     <bibl>
+                        <author>X. MARQUES</author>
+                        <pc>,</pc>
+                        <title>Voltas</title>
+                        <pc>,</pc>
+                        <citedRange>p. 359</citedRange>
+                     </bibl>
+                  </cit>
+               </sense>
+            </entry>
+            <!--etc.-->
+         </sense>
+         </entry>
+      </body>
+   </text>
+</TEI>

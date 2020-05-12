@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dicionário da Academia das Ciências de Lisboa</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Academia das Ciências de Lisboa</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Dicionário da Língua Portuguesa Contemporânea</title>
+               <extent>2 volumes</extent>
+               <extent>3809 pp.</extent>
+               <author>Academia das Ciências</author>
+               <publisher>Editorial Verbo</publisher>
+               <date>2001</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry type="monolexicalUnit" xml:lang="pt" xml:id="dura">
+            <form type="lemma">
+               <orth>dura</orth>
+            </form>
+            <!--etc.-->
+            <entry xml:id="ser_de_pouca_dura" xml:lang="pt" type="relatedEntry">
+               <form type="lemma">
+                  <orth>ser de pouca dura</orth>
+                  <gramGrp>
+                     <gram type="mwe" value="expressão_idiomática"/>
+                  </gramGrp>
+               </form>
+               <pc>,</pc>
+               <sense xml:id="ser_de_pouca_dura.1">
+                  <def>durar pouco tempo; passar depressa</def>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>Foi amor de pouca dura.</quote>
+                  </cit>
+               </sense>
+            </entry>
+            <!--etc.-->
+         </entry>
+      </body>
+   </text>
+</TEI>
