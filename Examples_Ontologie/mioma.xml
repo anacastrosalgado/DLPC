@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Documents/GitHub/lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng?fbclid=IwAR3EMhoOEei4hIPx3q5ufp3Az-PVH8Ub-ZBg7_8A3VdXRC4EeR_hWnz3mEo" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -42,7 +38,10 @@
                <cit type="etymon">
                   <lang expand="grego" norm="grc">gr.</lang>
                   <form xml:lang="grc">
-                     <orth>ῦς, µυóς</orth>
+                     <orth>µῦς</orth>
+                     <pc>,</pc>
+                     <!-- I prefer not to mark, because I'm not sure it's correct. -->
+                     <orth>µυóς</orth>
                      <pc>'</pc>
                      <gloss>músculo</gloss>
                      <pc>'</pc>
@@ -59,9 +58,8 @@
                </cit>
                <pc>)</pc>
             </etym>
-
             <sense xml:id="mioma_0">
-               <usg type="domain">Med.</usg>
+               <usg type="domain" corresp="link-to-medicine">Med.</usg>
                <def>Tumor benigno, constituído geralmente por tecido muscular liso e raramente por tecido muscular estriado.</def>
                <entry xml:id="mioma_uterino" xml:lang="pt" type="relatedEntry">
                   <form type="lemma">
@@ -73,6 +71,8 @@
                      <xr type="synonymy"><ref type="sense">fibromioma</ref></xr>
                   </sense>
                </entry>
+            </sense>
+         </entry>
       </body>
    </text>
 </TEI>

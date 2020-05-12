@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Documents/GitHub/lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng?fbclid=IwAR3EMhoOEei4hIPx3q5ufp3Az-PVH8Ub-ZBg7_8A3VdXRC4EeR_hWnz3mEo" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -35,33 +31,37 @@
             <gramGrp>
                <gram type="pos" norm="NOUN">s.</gram>
                <gram type="gen">f.</gram></gramGrp>
-                     
-                     <etym type="affixation">
+            <!-- In Portuguese is a morphological compound: Compostos morfológicos incluem um radical erudito/vernáculo não autónomo, frequentemente de origem grega ou latina, e caraterizam-se pela presença de uma vogal de ligação.-->
+                     <etym type="compounding">
+                        <pc>(</pc>
                <seg type="desc">De</seg>
-               <cit type="etymon"  xml:lang="pt">
-                  <form>
+               <cit type="etymon">
+                  <form xml:lang="pt">
                      <orth extent="pref">endo-</orth>
                   </form>
                </cit>
                <lbl>+</lbl>
-               <cit type="etymon"  xml:lang="gr">
-                  <form>
+                        <cit type="etymon">
+                           <form xml:lang="grc">
                      <orth>µ ήτρα</orth>
-                     <orth>'útero'</orth></form>
+                     <pc>'</pc>
+                     <orth>útero</orth>
+                          <pc>'</pc>
+                  </form>
                </cit>
                <lbl>+</lbl>
                <cit type="etymon">
                   <gramGrp>
                      <gram>suf.</gram>
                   </gramGrp>
-                  <form>
+                  <form xml:lang="pt">
                      <orth extent="suff">-ite</orth>
                   </form>
                </cit>
-            </etym>
-
+                        <pc>)</pc>
+                     </etym>
             <sense xml:id="endometrite_0">
-               <usg type="domain">Med.</usg>
+               <usg type="domain" corresp="link-to-medicine">Med.</usg>
                <def> Inflamação da mucosa uterina.</def>
             </sense>
          </entry>

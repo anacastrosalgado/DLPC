@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../Documents/GitHub/lexicalresources/Schemas/TEILex0/TEILex0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng?fbclid=IwAR3EMhoOEei4hIPx3q5ufp3Az-PVH8Ub-ZBg7_8A3VdXRC4EeR_hWnz3mEo" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -35,22 +31,26 @@
             <gramGrp>
                <gram type="pos" norm="NOUN">s.</gram>
                <gram type="gen">m.</gram></gramGrp>
-            <etym type="grammaticalization">
+            <etym type="compounding">
+               <!-- In Portuguese is a morphological compoun: Compostos morfológicos incluem um radical erudito/vernáculo não autónomo, frequentemente de origem grega ou latina, e caraterizam-se pela presença de uma vogal de ligação.-->
+               <pc>(</pc>
                <seg type="desc">De</seg>
                <cit type="etymon">
-                  <form>
+                  <form xml:lang="pt">
+                     <!-- ERROR From utero-) -->
                      <orth>útero</orth>
                   </form>
                </cit>
                <lbl>+</lbl>
                <cit type="etymon">
-                  <form>
+                  <form xml:lang="pt">
                      <orth extent="suf">-scópio</orth>
                   </form>
                </cit>
+               <pc>)</pc>
             </etym>
             <sense xml:id="uteroscópio_0">
-               <usg type="domain">Med.</usg>
+               <usg type="domain" corresp="link-to-medicine">Med.</usg>
                <def>Espéculo com que se examina o útero.</def>
             </sense>
          </entry>
