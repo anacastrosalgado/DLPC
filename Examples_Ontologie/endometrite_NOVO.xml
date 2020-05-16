@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dicionário da Academia das Ciências de Lisboa</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Academia das Ciências de Lisboa</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Dicionário da Língua Portuguesa Contemporânea</title>
+                    <extent>2 volumes</extent>
+                    <extent>3809 pp.</extent>
+                    <author>Academia das Ciências</author>
+                    <publisher>Editorial Verbo</publisher>
+                    <date>2001</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entry  xmlns:xlink="http://www.w3.org/1999/xlink" type="monolexicalUnit" xml:lang="pt" xml:id="endometrite">
+                <form type="lemma">
+                    <orth>endometrite</orth> <pron>ẽdɔmɨtrˈitɨ</pron>
+                </form>
+                <gramGrp>
+                    <gram type="pos" norm="NOUN">s.</gram> <gram type="gen">f.</gram>
+                </gramGrp>
+                <!-- etc. -->
+                <sense xml:id="endometrite_0" >
+                    <usg type="domain" corresp="http://www.semanticweb.org/OntoDomLab-Med#Medicine">Med.</usg>
+                    <usg type="domain" corresp="http://www.semanticweb.org/OntoDomLab-Med#Inflammation"/>
+                    <usg type="domain" xlink:role="http://www.semanticweb.org/OntoDomLab-Med#isTreatedBy" xlink:href="http://www.semanticweb.org/OntoDomLab-Med#Gynecology"/>
+                    <def>Inflamação da mucosa uterina.</def>
+                </sense>
+            </entry>
+        </body>
+    </text>
+</TEI>
+
