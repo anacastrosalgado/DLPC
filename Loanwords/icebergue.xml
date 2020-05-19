@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <?xml-model href="http://dacl.zbr.pt/exist/rest/db/schemas/academia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <entry xmlns="http://www.tei-c.org/ns/1.0" xmlns:dacl="http://dacl.zbr.pt/annotations"
+      xml:id="icebergue" xml:lang="pt" type="monolexicalUnit">
+      <!--<entry xml:lang="pt" xml:id="icebergue" type="monolexicalUnit"> -->
+      <dacl:meta status="imported"/>
+      <form type="lemma">
+         <orth>icebergue</orth>
+         <pron>isɨbˈεrgɨ</pron>
+         <pron>ajsɨbˈεrgɨ</pron>
+      </form>
+               <gramGrp>
+                  <gram type="pos" norm="NOUN">s.</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+      <etym type="inheritance">
+         <seg type="desc">Do</seg>
+         <cit type="etymon">
+            <!-- please, confirm lang expand and norm -->
+            <lang expand="inglês" norm="en">ing.</lang>
+            <form xml:lang="en">
+               <orth>iceberg</orth>
+               </form>
+               <pc>,</pc>
+               <seg type="desc">do</seg>
+               <lang expand="norueguês" norm="no">nor.</lang>
+               <form xml:lang="no">
+                  <orth>isberg</orth>
+               <pc>'</pc>
+               <gloss>montanha de gelo</gloss>
+               <pc>'</pc>
+               </form>
+         </cit>
+      </etym>
+      <sense xml:id="icebergue.1">
+   <def>Massa de gelo flutuante de grandes dimensões, separada de um glaciar polar, a maior parte submersa, impelida pelas correntes marítimas.</def>
+<cit type="example"><quote>A parte do icebergue que emerge da água chega a atingir 200 m. de altura.</quote></cit>
+<cit type="example"><quote>Depois de ter colidido com o icebergue, o barco afundou-se.</quote></cit>
+</sense>
+<entry xml:id="ponta_do_icebergue" xml:lang="pt" type="relatedEntry">
+   <form type="lemma">
+      <orth>
+         <ref type="entry"><seg>ponta</seg><lbl>+</lbl></ref>
+         <seg>do icebergue</seg>
+      </orth>
+   </form>
+   <pc>.</pc>
+</entry>
+   </entry>

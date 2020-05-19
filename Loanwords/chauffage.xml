@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <?xml-model href="http://dacl.zbr.pt/exist/rest/db/schemas/academia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <entry xmlns="http://www.tei-c.org/ns/1.0" xmlns:dacl="http://dacl.zbr.pt/annotations"
+      xml:id="check-up" xml:lang="pt" type="monolexicalUnit">
+      <!--<entry xml:lang="pt" xml:id="check-up" type="monolexicalUnit"> --> 
+      <dacl:meta status="imported"/>
+         <form type="lemma">
+            <orth>chauffage</orth>
+            <pron>ʃofˈaʒɨ</pron>
+               </form>
+            <etym type="borrowing">
+               <pc>(</pc>
+               <lang xml:lang="fr">Fr.</lang>
+               <pc>)</pc>
+            </etym>
+               <gramGrp>
+                  <gram type="pos" norm="NOUN">s.</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+<sense xml:id="aquecimento.1">
+               <xr type="related">
+                  <lbl>V.</lbl>
+                  <ref target="aquecimento" type="entry">aquecimento</ref>
+                  </xr>
+                  <pc>.</pc>
+            </sense>
+            </entry>

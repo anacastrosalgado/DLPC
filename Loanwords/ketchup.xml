@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://dacl.zbr.pt/exist/rest/db/schemas/academia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<entry xmlns="http://www.tei-c.org/ns/1.0" xmlns:dacl="http://dacl.zbr.pt/annotations"
+   xml:id="kaiser" xml:lang="pt" type="monolexicalUnit">
+   <!--<entry xml:lang="pt" xml:id="ketchup" type="monolexicalUnit"> -->
+   <dacl:meta status="imported"/>
+   <form type="lemma">
+               <orth>ketchup</orth>
+               <pron>kεtʃˈɐp</pron>
+               </form>
+            <etym type="borrowing">
+               <!-- please, confirm  -->
+               <lang xml:lang="en">Ingl.</lang>
+            </etym>
+               <gramGrp>
+                  <gram type="pos" norm="NOUN">s.</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+                  <sense xml:id="ketchup.1">
+                     <def>Molho feito de tomate e outros condimentos, para usar frio.</def>
+                     <cit type="example">
+                        <quote>«Todos levam consigo panquecas, cachorros cobertos de mostarda e ’ketchup’.»</quote>
+                        <pc>(</pc>
+                        <bibl><publisher>Público</publisher>
+                           <pc>,</pc>
+                           <date>26.6.1994</date>
+                           <pc>)</pc>
+                        </bibl>
+                     </cit>
+                  </sense>
+                     <form type="collocation">
+                        <orth>
+                           <seg>Frasco de</seg>
+                           <ref type="oRef"><lbl>+</lbl></ref>
+                        </orth>
+                        <gramGrp>
+                           <gram type="mwe" value="co-ocorrente_privilegiado"/>
+                        </gramGrp>
+                     </form>
+                     <pc>.</pc>
+                  <form type="inflected">
+                     <gram type="number">Pl.</gram>
+                     <orth>ketchups</orth>
+                     <pc>.</pc>
+                  </form>
+            </entry>

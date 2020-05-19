@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <?xml-model href="http://dacl.zbr.pt/exist/rest/db/schemas/academia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <entry xmlns="http://www.tei-c.org/ns/1.0" xmlns:dacl="http://dacl.zbr.pt/annotations"
+      xml:id="iceberg" xml:lang="pt" type="monolexicalUnit">
+      <!--<entry xml:lang="pt" xml:id="iceberg" type="monolexicalUnit"> -->
+      <dacl:meta status="imported"/>
+         <form type="lemma">
+            <orth>iceberg</orth>
+<pron>ajsɨbεrg</pron>
+         </form>
+         <etym type="borrowing">
+            <lang xml:lang="de">Al.</lang>
+         </etym>
+         <gramGrp>
+            <gram type="pos" norm="NOUN">s.</gram>
+            <gram type="gen">m.</gram>
+         </gramGrp>
+<sense xml:id="iceberg.1">
+            <xr type="related">
+               <lbl>V.</lbl>
+               <!-- needs icebergue ID -->
+               <ref target="icebergue" type="entry">icebergue</ref>
+            </xr>
+            <pc>.</pc>
+         </sense>
+      </entry>
+      

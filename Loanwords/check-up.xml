@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <?xml-model href="http://dacl.zbr.pt/exist/rest/db/schemas/academia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <entry xmlns="http://www.tei-c.org/ns/1.0" xmlns:dacl="http://dacl.zbr.pt/annotations"
+      xml:id="check-up" xml:lang="pt" type="monolexicalUnit">
+      <!--<entry xml:lang="pt" xml:id="check-up" type="monolexicalUnit"> -->  
+      <dacl:meta status="imported"/>
+         <form type="lemma">
+            <orth>check-up</orth>
+            <pron>ʃˈεkup</pron>
+               </form>
+            <etym type="borrowing">
+               <pc>(</pc>
+               <lang xml:lang="en">Al.</lang>
+               <pc>)</pc>
+            </etym>
+               <gramGrp>
+                  <gram type="pos" norm="NOUN">s.</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+<sense xml:id="check-up.1">
+               <xr type="related">
+                  <lbl>V.</lbl>
+                  <!-- exame geral ID It's a collocation!!! -->
+                  <ref target="exame geral" type="entry">exame geral</ref>
+                  </xr>
+                  <pc>.</pc>
+            </sense>
+            </entry>
