@@ -9,9 +9,7 @@
             <pron>ʃˈεkup</pron>
                </form>
             <etym type="borrowing">
-               <pc>(</pc>
                <lang xml:lang="en">Al.</lang>
-               <pc>)</pc>
             </etym>
                <gramGrp>
                   <gram type="pos" norm="NOUN">s.</gram>
@@ -20,7 +18,7 @@
 <sense xml:id="check-up.1">
                <xr type="related">
                   <lbl>V.</lbl>
-                  <!-- exame geral ID It's a collocation!!! -->
+                  <!-- exame geral ID It's a collocation!!! type="entry”??? -->
                   <ref target="exame geral" type="entry">exame geral</ref>
                   </xr>
                   <pc>.</pc>
