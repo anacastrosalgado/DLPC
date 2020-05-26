@@ -6,7 +6,8 @@ The PDF version of the printed edition was converted into XML using a customised
 The DLPC is currently being converted to the TEI Lex-0 format for data interoperability purposes. I'm working on making this major dictionary TEI Lex–0 native with the supervision of Toma Tasovac.
 
 
-### TEI Lex-0 in action---
+### TEI Lex-0 in action
+---
 
 
 #### Contents
