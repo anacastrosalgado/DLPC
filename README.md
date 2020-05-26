@@ -4,9 +4,10 @@ This dictionary is currently being converted to the TEI Lex-0 format, a baseline
 
 I'm working on making this major dictionary TEI Lex–0 native with the supervision of Toma Tasovac.
 
-##TEI Lex-0 in action
+## TEI Lex-0 in action
 
 
-###Contents
-examples/
+### Contents
+
+#### examples/
 This file collects samples of dictionary entries (xml and image).
