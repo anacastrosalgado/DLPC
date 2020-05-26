@@ -16,7 +16,8 @@ The DLPC is currently being converted to the [TEI Lex-0](https://dariah-eric.git
 This directory collects samples of dictionary entries (xml and image) to illustrate TEI Lex-0 application.
 
 
-
+### Related work:
+[Dicionário da Academia das Ciências de Lisboa (new digital edition)] (https://github.com/anacastrosalgado/DACL)
 
 ### Publications
 
