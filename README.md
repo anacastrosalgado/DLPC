@@ -9,9 +9,7 @@ The PDF version of the printed edition was converted into XML using a customised
 
 
 ### TEI Lex-0 in action
-The DLPC is currently being converted to the to the [TEI Lex-0](https://dariah-eric.github.io/lexicalresources/pages/TEILex0/TEILex0.html#index.xml-body.1_div.2_div.2) format, a baseline TEI schema for encoding dictionaries, for data interoperability purposes.
-
-I'm working on making this major dictionary TEI Lex–0 native with the supervision of Toma Tasovac.
+The DLPC is currently being converted to the to the [TEI Lex-0](https://dariah-eric.github.io/lexicalresources/pages/TEILex0/TEILex0.html#index.xml-body.1_div.2_div.2) format, a baseline TEI schema for encoding dictionaries, for data interoperability purposes. I'm working on making this major dictionary TEI Lex–0 native with the supervision of Toma Tasovac.
 
 ##### examples/
 This file collects samples of dictionary entries (xml and image).
