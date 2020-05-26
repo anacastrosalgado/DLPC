@@ -1,6 +1,6 @@
 DLPC
 
-A repository of the Dicionário da Língua Portuguesa Contemporânea (DLPC) from the Academia das Ciências de Lisboa (ACL).
+A repository of the Dicionário da Língua Portuguesa Contemporânea (DLPC, 2001) from the Academia das Ciências de Lisboa (ACL).
 This dictionary is currently being converted to the TEI Lex-0 format.
 
 Supervision of Toma Tasovac.
