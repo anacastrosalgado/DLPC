@@ -17,7 +17,7 @@ This directory collects samples of dictionary entries (xml and image) to illustr
 
 
 ### Related work:
-[Dicionário da Academia das Ciências de Lisboa (new digital edition)] (https://github.com/anacastrosalgado/DACL)
+[Dicionário da Academia das Ciências de Lisboa (new digital edition)](https://github.com/anacastrosalgado/DACL)
 
 ### Publications
 
