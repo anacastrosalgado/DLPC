@@ -1,5 +1,4 @@
 ## DLPC – *Dicionário da Língua Portuguesa Contemporânea*
----
 
 This is a repository for the conversion of the *Dicionário da Língua Portuguesa Contemporânea* (DLPC) to the [TEI Lex-0](https://dariah-eric.github.io/lexicalresources/pages/TEILex0/TEILex0.html#index.xml-body.1_div.2_div.2) format, a baseline TEI schema for encoding dictionaries.
 
@@ -11,8 +10,6 @@ The DLPC is currently being converted to the TEI Lex-0 format for data interoper
 
 
 ### TEI Lex-0 in action
----
-
 
 #### Contents
 
