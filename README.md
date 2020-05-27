@@ -26,6 +26,8 @@ Salgado, A, Costa, R., Tasovac, T. (2019).  [Improving the consistency of usage 
 
 Salgado, A., Costa, R., Tasovac, T., Simões, A. (2019). [TEI Lex-0 In Action: Improving the Encoding of the Dictionary of the Academia das Ciências de Lisboa](https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_23.pdf). In I. Kosem et al. (eds.), *Electronic lexicography in the 21st century. Proceedings of the eLex 2019* conference, pp. 417-433, 1-3 October 2019, Sintra, Portugal. Brno: Lexical Computing CZ, s.r.o.
 
+Salgado, A. Costa, R. & Tasovac, T. (2019, conference abstract). TEI Lex-0: a good fit for the encoding of the Portuguese Academy Dictionary? PowerPoint slides presented at TEI Conference 2019, What is text, really? TEI and beyond, 16–20 September, University of Graz, Austria.
+
 ### Other publications
 
 Salgado, A., Sina, A., Simões, A., Costa, R., McCrae, J. (2020, in press). Challenges of Word Sense Alignment: Portuguese Language Resources. In *7th Workshop on Linked Data in Linguistics: Building tools and infrastructure, LREC 2020: LREC 2020 Workshop*, *Proceedings of 7th Workshop on Linked Data in Linguistics: Building Tools and Infrastructure*, Marseille, France.
