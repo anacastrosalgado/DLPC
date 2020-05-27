@@ -35,4 +35,7 @@ Ahmadi, S., McCrae, J., Nimb, S., Khan, F., Monachini, M., Pedersen, B., Declerc
 Costa, R., Carvalho, S., Salgado, A., Simões, A. Tasovac, T. (2020, forthcoming). Ontologie des marques de domaines appliquée aux dictionnaires de langue générale”. *La lexicographie en tant que méthodologie de recherche en linguistique. Revue de Philologie Française et Romane – Langue(s) & Parole*, n. 5.
 
 ### Related work
-[Dicionário da Academia das Ciências de Lisboa (new digital edition)](https://github.com/anacastrosalgado/DACL)
+
+[Dicionário da Língua Portuguesa Contemporânnea](https://github.com/anacastrosalgado/DLPC)
+
+[OntoDomLab-Med](https://github.com/sarampcarvalho/OntoDomLab-Med) 
