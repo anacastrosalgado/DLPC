@@ -30,11 +30,11 @@ Salgado, A. Costa, R. & Tasovac, T. (2019, conference abstract). TEI Lex-0: a go
 
 ### Other publications
 
+Costa, R., Carvalho, S., **Salgado, A.**, Simões, A. Tasovac, T. (2020, forthcoming). Ontologie des marques de domaines appliquée aux dictionnaires de langue générale”. *La lexicographie en tant que méthodologie de recherche en linguistique. Revue de Philologie Française et Romane – Langue(s) & Parole*, n. 5.
+
 Salgado, A., Sina, A., Simões, A., Costa, R., McCrae, J. (2020, in press). Challenges of Word Sense Alignment: Portuguese Language Resources. In *7th Workshop on Linked Data in Linguistics: Building tools and infrastructure, LREC 2020: LREC 2020 Workshop*, *Proceedings of 7th Workshop on Linked Data in Linguistics: Building Tools and Infrastructure*, Marseille, France.
 
 Ahmadi, S., McCrae, J., Nimb, S., Khan, F., Monachini, M., Pedersen, B., Declerck, T., Wissik, T., Bellandi, A., Pisani, I., Troelsgård, T., Olsen, S., Krek, S., Lipp, V., Váradi T., Simon, L., Gyorffy, A., Tiberius, C., Schoonheim, T., Ben Moshe, Y., Rudich, M., Abu Ahmad, R., Lonke, D., Kovalenko, K., Langemets, M., Kallas, J., Dereza, O., Fransen, T., Cillessen, D., Lindemann, D., Alonso, M., **Salgado, A.**, Luis Sancho, J., Ureña-Ruiz, R.J., Porta Zamorano, J., Simov, K., Osenova, P., Kancheva, Z., Radev, I., Stanković, R., Perdih, A., & Gabrovsek, D. (2020). A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment. In Proceedings of The 12th Language Resources and Evaluation Conference (pp. 3225–3235), May Marseille, France. European Language Resources Association.
-
-Costa, R., Carvalho, S., Salgado, A., Simões, A. Tasovac, T. (2020, forthcoming). Ontologie des marques de domaines appliquée aux dictionnaires de langue générale”. *La lexicographie en tant que méthodologie de recherche en linguistique. Revue de Philologie Française et Romane – Langue(s) & Parole*, n. 5.
 
 ### Related work
 
