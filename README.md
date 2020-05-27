@@ -2,7 +2,7 @@
 
 This is a repository of the *Dicionário da Língua Portuguesa Contemporânea* (DLPC) published by [Academia das Ciências de Lisboa](http://www.acad-ciencias.pt/) (ACL).
 
-The DLPC is a monolingual Portuguese dictionary that was coordinated by João Malaca Casteleiro. It contains around 70,000 entries and was published in 2001 in two volumes, totalling 3880 pages.
+The DLPC is a monolingual Portuguese dictionary that was coordinated by [João Malaca Casteleiro (https://pt.wikipedia.org/wiki/Jo%C3%A3o_Malaca_Casteleiro). It contains around 70,000 entries and was published in 2001 in two volumes, totalling 3880 pages.
 
 The PDF version of the printed edition was converted into XML using a customised version of the P5 schema of the TEI, while a custom-built dictionary writing system using TEI as a data model in the backend was developed to serve as an editing environment for the new and improved online edition of the dictionary.
 
